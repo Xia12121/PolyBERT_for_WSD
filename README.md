@@ -4,7 +4,10 @@ Unofficial PyTorch implementation of
 
 > **PolyBERT: Fine-Tuned Poly Encoder BERT-Based Model for Word Sense Disambiguation**
 > Linhan Xia, Mingzhan Yang, Guohui Yuan, Shengnan Tao, Yujing Qiu, Guo Yu, Kai Lei.
-> arXiv:[2506.00968](https://arxiv.org/abs/2506.00968) — Springer Nature [chapter](https://link.springer.com/chapter/10.1007/978-981-95-3058-8_41).
+> *18th International Conference on Knowledge Science, Engineering and Management*
+> (**KSEM 2025**), Macao, China, August 4–7, 2025. LNCS 15922, pp. 433–443.
+> Springer. DOI: [10.1007/978-981-95-3058-8_41](https://doi.org/10.1007/978-981-95-3058-8_41)
+> — preprint: [arXiv:2506.00968](https://arxiv.org/abs/2506.00968).
 
 PolyBERT tackles two long-standing problems of BERT-based Word Sense
 Disambiguation (WSD):
@@ -281,15 +284,24 @@ Not yet shipped in this repo. Open an issue if you'd like one.
 
 ## Citing
 
-If you use this code, please cite the original paper:
+If you use this code, please cite the original paper (KSEM 2025, LNCS 15922):
 
 ```bibtex
-@article{xia2025polybert,
-  title  = {{PolyBERT}: Fine-Tuned Poly Encoder {BERT}-Based Model for Word Sense Disambiguation},
-  author = {Xia, Linhan and Yang, Mingzhan and Yuan, Guohui and Tao, Shengnan and Qiu, Yujing and Yu, Guo and Lei, Kai},
-  journal= {arXiv preprint arXiv:2506.00968},
-  year   = {2025},
-  url    = {https://arxiv.org/abs/2506.00968}
+@inproceedings{xia2025polybert,
+  author    = {Linhan Xia and Mingzhan Yang and Guohui Yuan and Shengnan Tao
+               and Yujing Qiu and Guo Yu and Kai Lei},
+  editor    = {Tianqing Zhu and Wanlei Zhou and Congcong Zhu},
+  title     = {{PolyBERT}: Fine-Tuned Poly Encoder {BERT}-Based Model for Word Sense Disambiguation},
+  booktitle = {Knowledge Science, Engineering and Management --
+               18th International Conference, {KSEM} 2025,
+               Macao, China, August 4--7, 2025, Proceedings, Part {IV}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {15922},
+  pages     = {433--443},
+  publisher = {Springer},
+  year      = {2025},
+  doi       = {10.1007/978-981-95-3058-8_41},
+  url       = {https://doi.org/10.1007/978-981-95-3058-8_41}
 }
 ```
 

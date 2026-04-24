@@ -1,6 +1,6 @@
 # PolyBERT for Word Sense Disambiguation
 
-Unofficial PyTorch implementation of
+Official PyTorch implementation of
 
 > **PolyBERT: Fine-Tuned Poly Encoder BERT-Based Model for Word Sense Disambiguation**
 > Linhan Xia, Mingzhan Yang, Guohui Yuan, Shengnan Tao, Yujing Qiu, Guo Yu, Kai Lei.
@@ -41,7 +41,7 @@ suite, and a 37.6 % wall-clock saving from BCL over a non-BCL variant.
 - [Reproducing the paper's headline numbers](#reproducing-the-papers-headline-numbers)
 - [FAQ](#faq)
 - [Citing](#citing)
-- [License & disclaimer](#license--disclaimer)
+- [License](#license)
 
 ---
 
@@ -327,8 +327,6 @@ The Poly-Encoder design we borrow from:
 }
 ```
 
-## License & disclaimer
+## License
 
-This repository is an **unofficial** re-implementation released for
-research purposes. It is not endorsed by the original authors. The code
-is released under the MIT license (see `LICENSE`).
+Released under the MIT license — see [`LICENSE`](LICENSE).
